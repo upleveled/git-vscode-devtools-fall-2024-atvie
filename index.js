@@ -2,8 +2,8 @@ console.log('Hello, world!');
 
 const greet = 'Hello world!';
 
-function greeting() {
-  console.log(greet);
+function greeting(data) {
+  console.log(data);
 }
 
-greeting();
+greeting(greet);
